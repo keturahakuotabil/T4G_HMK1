@@ -4,6 +4,5 @@ let userAge = prompt("Enter your age:");
 let userEmail = prompt("Enter your email:");
 
 // Display the information back to the user
-alert(
-    `Hi ${userName}, you are ${userAge} years old and we'll keep in touch via your email: ${userEmail}`
-);
+let message = `Hi ${userName}, you are ${userAge} years old and we'll keep in touch via your email: ${userEmail}`;
+alert(message);
