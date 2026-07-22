@@ -47,3 +47,30 @@ console.log("Type of numberValue:", typeof numberValue); // output : Typeof numb
 
 let stringValue = "JavaScript";
 console.log("Type of stringValue:", typeof stringValue); // output: typeof stringvalue: string
+
+// A. Prompt for name
+let userName = prompt("Enter your name:");
+
+// B. Prompt for age
+let userAge = Number(prompt("Enter your age:"));
+
+// C. Prompt for email
+let userEmail = prompt("Enter your email:");
+
+// D. Alert the information
+alert(`Hi ${userName}, you are ${userAge} years old and we'll keep in touch via your email: ${userEmail}`);
+
+// Age Conditions
+if (userAge < 13) {
+    alert("You are a child.");
+} else if (userAge >= 13 && userAge <= 17) {
+    alert("You are a teenager.");
+} else if (userAge >= 18 && userAge <= 35) {
+    alert("You are a young adult.");
+} else if (userAge >= 36 && userAge <= 59) {
+    alert("You are an adult.");
+} else if (userAge >= 60) {
+    alert("You are a senior citizen.");
+} else {
+    alert("Invalid age entered.");
+}
